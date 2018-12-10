@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/total.css">
+    <style>
+        .head{
+            width: 1200px;
+            height: 90px;
+            margin:0 auto;
+            
+        }
+     
+        .head a img{
+            width: 108px;
+            height: 48px;
+            margin-top:24px;
+        }
+        div.main{
+            height: 600px;
+            background-color: #e5af54;
+            position: relative;
+        }
+        div.main>img{
+            margin-top:90px;
+            margin-left:90px;
+        }
+        div.tt{
+            width: 350px;
+            display: inline-block;
+            background-color: #fff;
+            padding-bottom: 20px;
+            position: absolute;
+            top:150px;
+            margin-left:60px;
+        }
+        div.login{
+            padding:0px 20px;
+        }
+       
+       .login>input,.login>button{
+            
+            line-height:40px ;
+            margin-bottom:20px; 
+            
+        }
+        .tt>.title{
+            width: 100%;
+            line-height:42px ;
+            text-align: center;
+            background-color: #ccc;
+            margin-bottom: 20px;
+            color:#ff1268;
+            font-size: 16px;
+        }
+        .login>input{
+            outline:none;
+            border:1px solid #ccc;
+            font-size: 14px;
+            padding-left: 50px;
+            width: 250px;
+            padding-top:0px;
+            padding-bottom: 0px;
+        }
+        .login>button{
+            border:1px;
+            border-radius: 3px;
+            padding:1px 0px;
+            width: 300px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #ff1268;
+
+        }
+        .name{
+            background:url(./img/1.png) no-repeat -1px 0px;;
+        }
+        .upwd{
+            background:url(./img/2.png) no-repeat -3px -1px;;
+        }
+    </style>
+</head>
+<body>
+    <div class="head"><a href=""><img src="img/TB1K0qedf1TBuNjy0FjXXajyXXa-260-118.png" alt=""></a></div>
+    <div class="main">
+        <img src="img/TB12w90pHZnBKNjSZFKXXcGOVXa-720-400.png_q75.jpg" alt="">
+        <div class="tt">
+                <div class="title">密码登录</div>
+          <div class="login">
+            
+            <input type="text" placeholder="请输入手机号或邮箱" class="name">
+            <input type="text" placeholder="请输入登录密码" class="upwd">
+            <button>登录</button>
+          </div> 
+        </div>
+    </div>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>

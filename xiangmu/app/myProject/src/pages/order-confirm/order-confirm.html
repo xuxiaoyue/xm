@@ -1,0 +1,33 @@
+<!--
+  Generated template for the OrderConfirmPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>orderConfirm</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+<ion-list>
+    <ion-thumbnail item-start>
+        <ion-icon name='pin'></ion-icon>
+      </ion-thumbnail>
+      <h4>收获人：JOHN</h4>
+      <P>收货地址：北京</P>
+  <ion-item *ngFor="let tmp of list">
+     <ion-thumbnail item-start>
+         <img [src]="'http://localhost/xiangmu/app/ajia_code/ajia_code/'+tmp.pic" />
+     </ion-thumbnail>  
+     <h4>{{tmp.title}}</h4>
+     <h5>{{tmp.subtitle}}</h5>
+     <p style="color:red">{{"￥"+tmp.price+"x"+tmp.count}}</p>
+   </ion-item> 
+</ion-list>
+<button ion-button color="secondary" block round (click)="showModal()">在线支付</button>
+</ion-content>

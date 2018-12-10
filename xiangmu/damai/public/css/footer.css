@@ -1,0 +1,82 @@
+.footer{
+    background-color: #f8f8f8;
+    
+}
+div.w1200{
+    width:1200px;
+    margin: 0 auto;
+}
+.footer-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 100px;
+    zoom:1;
+}
+.footer-link-list{
+    font-size: 13px;
+    color: #111;
+}
+.footer-link-grep{
+    padding:0 24px;
+}
+.footer-ft1{
+    width:30%; 
+    display: inline-block;
+    vertical-align: top;
+    
+}
+.footer-logo{
+    width:170px;
+    height:100% ;
+   float: left;
+   margin-right:30px; 
+   padding-top:20px;
+    
+}
+.footer-ft1-code{
+    width: 87px;
+    float: left;
+    text-align: center;
+}
+.footer-ft1-code img{
+    width:87px;
+    height: 87px; 
+    display:block;  
+}
+.footer-ft2{
+    display: inline-block;
+    width: 68%;
+    font-size: 14px;
+}
+.footer-ft2-contact{
+    width:98px;
+    height: 27px;
+    line-height: 27px;
+    background-color: #ff1268;
+    border-radius: 20px;
+    text-align: center;   
+}
+.footer-ft2-contact{
+    color: #f8f8f8;   
+}
+.footer-ft2-words{
+    width:100%;
+    color:#111;
+    clear: both;
+}
+.footer-ft2-words{
+    float: left;
+    font-size: 13px;
+    padding-top:15px;
+}
+.footer-ft2-words>li{
+    float: left;
+   
+}
+.footer-ft2-certificate{
+    padding-right:15px;
+}
+.footer-ft2-grep{
+    padding-right: 15px;
+}

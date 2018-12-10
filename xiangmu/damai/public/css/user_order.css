@@ -1,0 +1,64 @@
+body{
+    font-size: 12px;
+}
+.title{
+    width: 1200px;
+    margin:10px auto;
+    vertical-align: top;
+    display: flex;
+}
+.title .nav{
+    width:169px;
+    display: inline-block;
+}
+.dm_order_menus{
+   width: 100%;
+    text-align:left;
+}
+.dm_order_menus .tt1{
+    line-height: 80px;
+    font-size: 22px;
+    color:#FF1268;
+    font-weight: 400;
+}
+.dm_order_menus th{
+    color:#111;
+    font-size: 16px;
+    line-height: 60px;
+}
+.dm_order_menus td a{
+    color:#333;
+    font-size: 14px;
+    line-height:25px;
+}
+.d-right{
+    width:1000px;
+   display: inline-block;
+   margin-top:40px;
+   padding-bottom: 15px; 
+
+}
+.navigation{
+    line-height: 17px;
+    color:#000;
+    margin:20px 0;
+}
+.navigation a,.navigation span{
+    padding-right: 10px;
+}
+.navigation .cur{
+    color:#9B9B9B;
+}
+ .rev input{
+     width: 40px;
+     text-align: center;
+ }
+ .next-col{
+    display:flex;
+    margin-top:30px;
+    justify-content: center;
+    align-items: center;
+ }
+ .next-col .txt{
+     font-size: 18px;
+ }

@@ -1,0 +1,208 @@
+body{
+    font-size:12px;
+}
+.top-s{
+    background-color: #f7f7f7;
+    border:1px solid #e5e5e5;
+    height: 35px;
+}
+.top-s .top_con{
+    width: 1000px;
+    margin:0 auto;
+    line-height:35px ;
+    color: #666;
+}
+.top_con .fl{
+   float: left; 
+}
+.top_con .fl li{
+    float: left;
+   
+    position: relative;
+
+}
+.top_con .fl .mini-logo img{
+   vertical-align: middle;
+}
+.top_con .fl .dm-uname-info{
+    padding:0 11px;
+    background: url(../img/top-bg.png) no-repeat right 12px;
+}
+.top_con .fl .mydm{
+    padding:0 11px;
+    width: 59px;
+    background: url(../img/top-bg.png) no-repeat right 12px;
+    position: relative;
+}
+.mydm b{
+    width: 7px;
+    height: 4px;
+    position:absolute;
+    top:15px;
+    margin-left:3px;
+    background: url(../img/top-bg.png) no-repeat 0 -40px;
+}
+.top_con .fl .dm-on{
+    width: 59px;
+    line-height: 30px;
+    position: absolute;
+    border:1px solid #e5e5e5;
+    padding: 0px 11px 0px 10px;
+    text-align: center;
+    
+}
+.top_con .fl::after,.top_con .fl li::after{
+    content:"";
+    display:block;
+    clear: both;
+}
+.g-bd{
+    width: 960px;
+    margin:20px auto;
+    
+
+}
+.m-panel{
+    line-height: 24px;
+    position: relative;
+}
+.m-panel h2.hd{
+   color: #ed0a75;
+   line-height: 30px;
+   font-size:16px;
+   padding-left:10px;
+   font-weight: 400;
+   padding-bottom:3px;
+   border-bottom: 2px solid #d7d7d7;
+}
+.bd{
+    padding-top:10px;
+}
+.m-tab{
+    padding:10px 0;
+    width: 100px;
+    position: relative;
+    
+}
+.m-panel .i-1{
+    width:154px;
+    position: absolute;
+    top:72px;
+    border-bottom: 2px solid #ed0a75;
+}
+
+.m-tab i{
+    background: url(../img/sta_p_1.png) no-repeat -78px 0;
+    width: 79px;
+    height: 78px;
+    display: block;
+}
+.m-tab>span{
+   padding:1px;
+   color: #ed0a75;
+}
+.m-tab::after{
+    content:"";
+    position: absolute;
+    top:121px;
+    left: 30px;;
+    width: 23px;
+    height:13px ;
+    z-index: 3;
+    background: url(../img/i.png) no-repeat -177px -367px;
+}
+.tab-itm{
+    width:960px;
+    margin:10px 0;  
+    line-height: 24px;
+    border: 1px solid #d7d7d7;
+    background-color: #fbfbfb;
+}
+.tab-itm h2{
+    color:#666;
+    padding:10px 30px ;
+    font-weight: 400;
+    border-bottom: 1px dashed #ececec;
+}
+.tab-itm .form{
+   padding: 0 60px;
+   line-height: 30px;  
+}
+.tab-itm .form input{
+    padding:5px 10px;
+}
+ .form .tips{
+    border: 1px solid #fcf0ca;
+    padding:0 25px;
+    display: inline-block;
+    background: #fdf7e4 url(../img/new_tips.png) no-repeat 5px 5px;
+    margin:10px 0;
+}
+.form .form-btn{
+    display: block;
+}
+.m-panel .i-2{
+    width:154px;
+    position: absolute;
+    top:33px;
+    border-bottom: 2px solid #ed0a75;
+}
+.bd .pay{
+    padding:10px 30px;
+    display: block;
+}
+.m-table{
+    border:1px solid #fff;
+    box-sizing: border-box;
+}
+.m-table table{
+    border-collapse: collapse;
+    color:#666;
+    width: 100%;
+    background: #f4f9fe;
+}
+th,td{
+   border-bottom: 1px solid #fff;
+   border-right: 1px solid #fff;
+}
+.m-table td{
+   text-align: center;
+}
+td.pro-name,th.pro-name{
+    width: 50%;
+    text-align: left;
+    padding-left:10px;
+}
+tfoot .total{
+    text-align: right;
+    padding:0 40px;
+}
+tfoot .total a{
+    margin-right: 30px;
+}
+.c-pay{
+    margin-top:50px;
+    border-top:1px dotted #666;
+}
+.c-pay table{
+   line-height: 50px;
+    width: 100%;
+}
+.c-pay table tr td{
+    text-align: right;
+}
+.c-pay table .tt{
+    color:#111;
+    font-weight: 900;
+}
+.c-pay table .tt span{
+    color:#ed0a75;
+}
+.c-pay table tr button{
+    padding:10px 20px;
+    color: #fff;
+    font-size: 16px;
+    background-color: #ed0a75;
+    border:0;
+    outline: 0;
+}

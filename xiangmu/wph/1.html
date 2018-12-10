@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+       #box{
+    position:relative;
+}
+#box .small_pic{
+    width: 360px;
+    height:360px;
+    position: relative;
+}
+#box .small_pic img{
+    width:100%;
+    height:100%;
+}
+#box .small_pic .slider{
+    width:180px;
+    height:250px;
+    position:absolute; 
+   
+   
+    background:rgba(255, 255, 255, 0.3);
+    cursor:move; 
+}
+#box .small_pic .super-mark{
+    width: 360px;
+    height:360px;
+    background: red;
+    position: absolute;
+  
+    z-index: 10;
+}
+
+    </style>
+</head>
+<body>
+    <div id="box">
+        <div class="small_pic">
+            <div class="slider"></div>
+            <img src="img/header/1504179372347.jpg" alt="">
+            <div class="super-mark"></div>
+        </div>            
+</div>
+
+</body>
+</html>

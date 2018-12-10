@@ -1,0 +1,822 @@
+
+ul,li,a{
+    color: #333;
+}
+ul{
+     list-style: none;
+ }
+ a{
+     text-decoration:none;
+     color: #333;
+ }
+ img{
+     padding:0;
+     margin:0;
+ }
+ .vip-commen-header{
+     position: relative;
+     color:#333;
+     font:12px/1.5 tahoma,arial,Hiragino Sans GB,WenQuanYi Micro Hei,
+     \5FAE\8F6F\96C5\9ED1,\5B8B\4F53,sans-serif;
+     box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1);
+}
+.top-nav-tool::after,.head-size::after,ul li.head-inner-no3::after{
+    content:"";
+    clear:both;
+
+}
+
+/*第一层*/
+
+.no1-nav,.head-inner{
+    position: relative;
+
+}
+.no1-nav{
+    height: 28px;
+    line-height: 26px;
+    background-color:#f5f5f5;
+    color:#777;
+    width:100%;
+}
+.head-inner{
+    width:70%;
+    margin: 0 auto;
+}
+
+/*1.设置定位效果*/
+.c-h-area{
+    display: inline-block;
+    position: relative;
+    color:#333;
+    height: 26px; 
+    width:7%;
+    border-width:0.05rem  0.05rem 0;
+    border-style:solid;
+    border-color:#ccc;
+   
+}
+.c-h-area-header{
+    position: relative;
+    padding-left:0.8rem;
+    padding-right:0.3rem;
+    width:100%;
+    cursor:pointer;
+   
+   
+}
+.c-h-area-title{
+   display: inline-block;
+    width:60%;
+    line-height: 27px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding:0;
+}
+.c-h-area-triangle{
+    position: absolute;
+    top:10px;
+    left:61%;
+    width: 0.02%;
+    height: 27px;
+    display: inline-block;
+    border-width:0.4rem  ;
+    border-color: #999 transparent transparent transparent;
+    border-style:solid;
+   
+}
+/*2.设置导航条中工具项*/
+.top-nav-tool{
+    position: relative;   
+    float: right;
+    width: 80%;
+    list-style: none;
+    margin:0;
+    padding:0;
+        
+}
+
+.top-nav-tool li,.wp-my{
+    float: left;  
+   
+}
+/*设置注册名、登录状态、注册*/
+/*设置签到有礼*/
+.wp-sign{
+    width:10%;
+    line-height:27px; 
+    position: relative;
+    z-index: 11;
+    text-align:center;
+}
+.wp-sign-icon{
+   
+   background:url(../img/header/header_sign-hash-0459d02c.png) no-repeat;
+   width: 20%;
+   height: 18px;
+   margin-top: 10px;
+  
+}
+/*设置我的订单*/
+.wp-order{
+    width:8%;
+}
+/*设置我的特卖*/
+/*设置会员俱乐部*/
+/*设置客户服务*/
+/*设置手机版*/
+/*设置更多*/
+.wp-service{
+    width: 10%;
+    position: relative;
+    text-align: center;
+     z-index: 100;
+   margin-right:2rem;
+ }
+ .wp-serviceIn{
+    border:1px solid #ccc ;
+    border-bottom: 0;
+    background-color: #fff;
+    z-index: 99;
+    outline: 0;
+ }
+  
+.sevice-in{
+    width:90%;
+    height: 26px;
+   position: relative;
+   
+  
+}
+ .ico-dis{
+     position: absolute;
+     top:13px;
+     border-color: #999 transparent transparent transparent;
+     border-width:0.3rem;
+     border-style: solid;
+     vertical-align: middle;
+ }
+ .ico-disIn{
+    top:8px;
+    border-color:  transparent transparent #f10180 transparent;
+    border-width:0.3rem;
+    border-style: solid;
+ }
+ .service-out{
+     position: absolute;    
+     display: block;
+     width:100%;
+     padding: 0 ;
+     margin:0;
+     border:1px solid #ccc ;
+     background-color: #fff;
+     border-top:0;
+     padding-left:1rem;
+ }
+ 
+.aIn{
+    color: #f00581
+}
+
+/*第二层*/
+/*第一个ul，图片链接*/
+.head-logo{
+    position: relative;
+    display: block;
+    height:100px;
+    padding: 0;
+    margin: 0 auto;
+    background-color: #fff;
+    width:73%; 
+}
+.head-size{
+    width:100%;
+    padding: 0;
+    margin:0;
+   
+}
+
+ul>li.head-inner-no1{
+    width:45%;
+    height:100px;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+ul.head-img{
+   width: 100%;
+   height: 27px;
+   padding: 0;
+    margin: 0;
+}
+.head-img-no1 img{
+    width:28%;  
+    height:100px ;
+    float: left;
+      
+}
+.head-img-no2{
+    width:70%;
+    height:100px;
+    background: url(../img/header/1504179372347.jpg) no-repeat;
+    background-position:0 0;
+    float: left;
+    
+}
+.a-service-link{
+   display: inline-block;
+   width:30%;
+   height:100px;
+   z-index: 2;
+}
+
+/*购物袋*/
+ul li.head-inner-no3{
+    float: left;
+    width: 10%;
+    line-height: 27px;
+    border:0.05rem solid #ccc;
+    border-radius: 0.1rem; 
+    margin-top:33px;
+   margin-left:0.5rem; 
+   font-size: 0.8rem;  
+}
+.head-card{
+    padding:0.2rem 0.1rem ;      
+}
+.head-card-img{    
+    vertical-align: middle;   
+}
+span.head-card-num{
+    display: inline-block;
+    width: 20%;
+    height: 16px;
+    border-radius:3rem;
+    line-height: 16px;
+    color: #fff;
+    text-align: center;
+    background-color: #f00581;
+   padding-left: 0.1rem;
+
+}
+/**/
+li.head-inner-no2{
+    float: left;
+    width: 35%;
+    margin-top: 33px;
+    margin-left:0; 
+}
+li.head-inner-no2 input{
+    padding:0.6rem 1rem;
+    width:70%;
+    border-radius:0.1rem;
+    border:0.1rem solid #fa2a83;
+    outline: 0;
+    float: left;
+}
+li.head-inner-no2>a>img{
+    float: left;  
+}
+/*第三层*/
+nav.main-nav{
+    width: 70%;
+    height: 43px;
+    line-height: 43px;
+    background-color: #fff;
+    color:#fff;
+    font-size: 1rem;
+    margin: 0 auto;
+    padding:0;
+    position: relative;
+}
+div.head-bottom{
+    padding:0;
+    margin: 0;
+}
+div.head-bottom>ul{
+    padding: 0;
+    margin: 0;
+}
+div.head-bottom>ul>li{
+    float: left;
+}
+.main-nav-link>.nav-category{
+   width: 12%;
+   background-color: #f10180;
+    text-align: center;
+    
+   }
+   .nav-category .nav-one{
+       color:#fff;
+   }
+   .nav-category .nav-one img{
+       vertical-align: middle;
+       margin-top:-0.25rem;  
+       margin-right: 0.1rem;
+   }
+   .main-nav-link .main-nav-atag{
+       padding:0 1.3rem;
+   }
+   .main-nav-link .main-nav-atag:hover{
+       color: #f00581;
+   }
+   .indexcolor{
+       color:#f10180;
+       font-weight:700;
+       cursor: default;
+   }
+   /*设置更多*/
+  .nav3-more{
+      position: relative;
+     
+  }
+   .nav3-more .more-out{
+     width: 100%; 
+     position: absolute;
+       padding:0;
+       margin:0;
+      
+       
+   }
+  
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+.nav-one{
+
+}
+
+

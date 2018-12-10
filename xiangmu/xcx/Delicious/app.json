@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/logs/logs",
+    "pages/index/index"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#F5F5F5",
+    "navigationBarTitleText": "CC甜品店",
+    "navigationBarTextStyle":"black"
+  }
+}

@@ -1,0 +1,29 @@
+$(function(){
+  /*设置我的特卖--客户服务*/ 
+  $(".wp-service").mouseenter(function(){
+     $(this).addClass("wp-serviceIn")
+      .find("span").find("a").css("color","#f10180").next().addClass("ico-disIn");
+       $(this).children(1).css("display","block");   
+  })    
+  $(".wp-service").mouseleave(function(){
+    $(this).removeClass("wp-serviceIn")
+    .find("span").find("a").css("color","#333").next().removeClass("ico-disIn");
+    $(".service-out").css("display","none");   
+  })
+  $(".service-out>li>a").hover(function(){
+      $(this).toggleClass("aIn");
+  })
+  /*设置第三行*/
+  /*设置更多*/
+  $("nav.main-nav ul>li.nav3-more").mouseenter(function(){
+      $(this).children(0).css("color","#f10180");
+      $(this).find("ul").css("display","block");
+  })
+  $("nav.main-nav ul>li.nav3-more").mouseleave(function(){
+    $(this).children(0).css("color","#333");
+    $(this).find("ul").css("display","none");
+})
+  $("ul.more-out>li>a").hover(function(){
+    $(this).toggleClass("aIn");
+  })
+})
